@@ -1,0 +1,48 @@
+1.list 5 differences between browser js and node js?
+ Answer:
+ BROWSER JS:
+ ->It is used on client side.
+ ->This can only be run in browser.
+ ->It is used for writing scripts on websites
+ ->It is an upgraded version of ECMASCRIPT that uses chrome's v8 engine written in c++.
+ ->this can run in any browser engine.
+ ->it is capable enough to add HTML tags.
+ NODE.JS:
+ ->It is used on server side.
+ ->It can run outside the browser.
+ ->It is a javascript run time environment.
+ ->It is written in c,c++,javascript.
+ ->V8 is the javascript engine inside of nodejs.
+ ->It does not have capability too add HTML tags.
+
+2.watch and summary 5 points ( render a website)
+  Answer:
+ ->Rendering engine is responsible for html and css parsing.
+ ->Html parser will create DOM and css parser will create CSSOM.
+ ->Render tree s a combination of both DOM and CSSOM.this the actual representation of what will show on the screen.
+ ->Render tree is like multiple trees i.e.,Renderobjects,Renderstyles,Renderlayers andc lineboxes.
+ ->Layout is a process where it computes where the elements will appear on the page,based on it's relationship to other elements.
+ ->painting will give the visual output of what you are expecting on the page.
+
+3.execute the below code and write your description?
+  Answer:
+  ->console.log(typeof(1));
+  ->console.log(typeof(1.1));
+  -> console.log(typeof('1.1'));
+  ->console.log(typeof(true));
+  ->console.log(typeof(null));
+  ->console.log(typeof(undefined));
+  ->console.log(typeof([]));
+  ->console.log(typeof({}));
+  ->console.log(typeof(NaN)); 
+ ->type of operator returns output as a string.
+ ->typeof number  is number datatype.
+ ->typeof string is string datatype.
+ ->typeof true or false is boolean datatype.
+ ->typeof null is object.
+ ->typeof undefined is undefined.
+ ->typeof an array is an object.
+ ->typeof an object is an  object.
+ ->typeof NaN is number.
+
+
